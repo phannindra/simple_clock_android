@@ -1,4 +1,4 @@
-package com.phantomLabs.simpleclock
+package com.phantomLabs.simpleClock
 
 import org.junit.Test
 

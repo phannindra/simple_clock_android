@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Simple Clock</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_timer">Timer</string>
+    <string name="title_stopwatch">stopwatch</string>
+    <string name="title_clock">clock</string>
 </resources>
