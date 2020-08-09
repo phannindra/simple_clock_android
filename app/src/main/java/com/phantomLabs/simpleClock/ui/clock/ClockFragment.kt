@@ -24,7 +24,7 @@ class ClockFragment : Fragment() {
             ViewModelProviders.of(this).get(ClockViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_home, container, false)
         val textDate: TextView = root.findViewById(R.id.txt_date)
-        val simpleDateFormat = SimpleDateFormat("dd-mm-yyyy")
+        val simpleDateFormat = SimpleDateFormat("dd-MM-yyyy")
 
         textDate.text = simpleDateFormat.format(Date())
 
